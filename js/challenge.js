@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // if state paused
 
-                    
+
                     // enable incrementBtn
                     // enable decrementBtn
 
