@@ -137,13 +137,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if(pauseBtnState === 'resume'){
                 pauseBtnState = "running"
+                pauseBtn.textContent = "❤️"
                 main()
             // if state paused
                     // set to running
                     // resetCounter state to zero
                     // enable incrementBtn
                     // enable decrementBtn
-                    // set pause btn to ❤️
+                    // set pause btn to 
 
             }
         })
