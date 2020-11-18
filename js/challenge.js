@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // resetCounter state to zero
                     // enable incrementBtn
                     // enable decrementBtn
-                    // set pause btn to 
+                    // set pause btn to
 
             }
         })
