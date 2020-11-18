@@ -87,11 +87,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // create comment
     function createComment(){
-        // select inputValue on form submit
 
-            // create comment li
+        let value = commentInput.value
 
-            // append to container as adjancet html
+        let comment = document.createElement('li')
+
+        let text = document.createTextNode(value)
+
+        comment.appendChild(text)
+
+        commentList.insertAdjacentElement('afterbegin', comment)
+
+        commentContainer.appendChild(commentList)
+    
 
     }
 
@@ -176,17 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             e.preventDefault();
 
-            let value = commentInput.value
-
-            let comment = document.createElement('li')
-
-            let text = document.createTextNode(value)
-
-            comment.appendChild(text)
-
-            commentList.insertAdjacentElement('afterbegin', comment)
-
-            commentContainer.appendChild(commentList)
+            
 
         })
 
