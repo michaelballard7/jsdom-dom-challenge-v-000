@@ -139,6 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 pauseBtnState = "running"
 
+                // set pause btn to heart
                 pauseBtn.innerText = ❤️
 
                 main()
@@ -149,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // resetCounter state to zero
                     // enable incrementBtn
                     // enable decrementBtn
-                    // set pause btn to
+
 
             }
         })
