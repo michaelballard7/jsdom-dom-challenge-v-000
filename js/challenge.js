@@ -189,8 +189,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             commentContainer.appendChild(commentList)
 
-            // commentContainer
-
         })
 
 
