@@ -177,6 +177,11 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
 
             let value = commentInput.value
+
+            let comment = document.createElement('li')
+
+            let text = document.createTextNode(value)
+
         })
 
 
