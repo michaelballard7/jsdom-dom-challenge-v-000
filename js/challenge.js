@@ -139,9 +139,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 pauseBtnState = "running"
 
-                pauseBtn.textContent = ❤️
+                pauseBtn.innerHTML= ❤️
 
                 main()
+
+                
             // if state paused
                     // set to running
                     // resetCounter state to zero
