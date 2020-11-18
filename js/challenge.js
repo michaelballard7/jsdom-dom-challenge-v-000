@@ -63,8 +63,6 @@ document.addEventListener('DOMContentLoaded', () => {
             likesState=0
     }
 
-
-
     // create comment
     function createComment(){
         // select inputValue on form submit
