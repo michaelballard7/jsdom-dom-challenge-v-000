@@ -182,7 +182,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             let text = document.createTextNode(value)
 
+
             comment.appendChild(text)
+
+            console.log(comment)
 
             commentContainer.insertAdjacentHTML('afterbegin', comment)
 
