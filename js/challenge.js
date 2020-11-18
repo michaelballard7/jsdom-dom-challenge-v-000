@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function main(){
 
-
+        startCounter()
 
         // begin heart like checker
         let heartBeat = setTimeout( heartBeatChecker, 500)
