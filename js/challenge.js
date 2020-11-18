@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             commentList.insertAdjacentElement('afterbegin', comment)
 
-            console.log(commentList)
+            commentContainer.appendChild(commentList)
 
             // commentContainer
 
