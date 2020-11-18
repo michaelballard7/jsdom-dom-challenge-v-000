@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // disable decrementBtn
                 decrementBtn.style.display="initial"
                 // disable heartBtn
-                heartBtn.style.display="none"
+                heartBtn.style.display="initial"
 
 
                 // set pause btn to heart
