@@ -63,11 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
             likesState=0
     }
 
-    // set interval to increment counter to increment by 1
-    function startCounter(){
 
-
-    }
 
     // create comment
     function createComment(){
