@@ -167,16 +167,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 startCounter()
 
-
-
-
-            // if state paused
-
-
-
-                    // enable decrementBtn
-
-
             }
         })
 
