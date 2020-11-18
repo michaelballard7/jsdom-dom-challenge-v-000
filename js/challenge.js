@@ -190,12 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         })
 
-
     } // end of main
-
-
-
-
 
     main()
 
