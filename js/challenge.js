@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // if state running
             if(pauseBtnState === 'running') {
-                
+
                 // clear interval to cancel set interval,
                 clearInterval(heartBeat)
 
