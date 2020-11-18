@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 main()
 
-                
+
             // if state paused
                     // set to running
                     // resetCounter state to zero
