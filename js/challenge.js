@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // set interval to increment counter to increment by 1
     function startCounter(){
 
-        
+
     }
 
     // create comment
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function main(){
 
         // start Counter
-        startCounter = setInterval( ()=> {
+        let startCounter = setInterval( ()=> {
             // increment counter  +1
             counter++
 
