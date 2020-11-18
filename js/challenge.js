@@ -181,11 +181,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // add event for comment Add
         commentForm.addEventListener('submit', (e) => {
-
+            
             e.preventDefault();
 
-            createComment()
-
+            createComment();
         })
 
     } // end of main
