@@ -140,6 +140,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 // set to running
                 pauseBtnState = "running"
 
+                // disable incrementBtn
+                incrementBtn.style.display="initial"
+
+                // disable decrementBtn
+                decrementBtn.style.display="none"
+                // disable heartBtn
+                heartBtn.style.display="none"
+
+
                 // set pause btn to heart
                 pauseBtn.innerText = "❤️"
 
