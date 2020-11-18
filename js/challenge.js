@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             heartBeatChecker()
 
         }, 1000)
-        
+
     }
 
     // create comment
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function main(){
 
-        
+
 
         // begin heart like checker
         let heartBeat = setTimeout( heartBeatChecker, 500)
