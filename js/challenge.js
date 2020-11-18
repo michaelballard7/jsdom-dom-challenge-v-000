@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // pauseBtn,
         pauseBtn.addEventListener('click', () => {
 
-            
+
 
             // if state running
             if(pauseBtnState === 'running') {
