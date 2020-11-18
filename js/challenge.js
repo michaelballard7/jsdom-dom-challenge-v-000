@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 pauseBtn.innerText = ❤️
 
                 // reset Counter state to zero
-                counter = 0
+                // counter = 0
 
                 main()
 
