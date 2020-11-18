@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // select comment form
-    
+
     let commentForm = document.querySelector('#comment-form')
     // select comment input
     let commentInput = document.querySelector('#comment-input');
