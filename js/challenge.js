@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 pauseBtnState = "running"
 
                 // set pause btn to heart
-                pauseBtn.innerText = ❤️
+                pauseBtn.innerText = "❤️"
 
                 // reset Counter state to zero
                 // counter = 0
