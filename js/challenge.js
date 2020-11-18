@@ -149,9 +149,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 // disable heartBtn
                 heartBtn.style.display="initial"
 
-                // set pause btn to heart
-                pauseBtn.innerText = "❤️"
-
                 // reset Counter state to zero
                 counter = 0
 
