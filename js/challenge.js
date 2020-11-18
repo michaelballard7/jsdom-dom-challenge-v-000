@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // reset Counter state to zero
                 // counter = 0
 
-    
+
 
 
             // if state paused
