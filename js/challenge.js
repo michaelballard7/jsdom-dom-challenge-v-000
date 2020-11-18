@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 incrementBtn.style.display="initial"
 
                 // disable decrementBtn
-                decrementBtn.style.display="none"
+                decrementBtn.style.display="initial"
                 // disable heartBtn
                 heartBtn.style.display="none"
 
