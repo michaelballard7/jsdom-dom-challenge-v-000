@@ -137,6 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if(pauseBtnState === 'resume'){
 
+                // set to running
                 pauseBtnState = "running"
 
                 // set pause btn to heart
@@ -146,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
             // if state paused
-                    // set to running
+
                     // resetCounter state to zero
                     // enable incrementBtn
                     // enable decrementBtn
