@@ -66,7 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function startCounter(){
 
-        counterDisplay.innerText = "0"
+        counterDisplay.innerText = 0
+
         // start Counter
         counterInerval = setInterval( ()=> {
             // increment counter  +1
