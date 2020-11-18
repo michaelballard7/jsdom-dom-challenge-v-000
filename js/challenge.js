@@ -66,16 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // set interval to increment counter to increment by 1
     function startCounter(){
 
-        setInterval( ()=> {
-            // increment counter  +1
-            counter++
-
-            // update the counter display
-            counterDisplay.innerText = counter
-
-            heartBeatChecker()
-
-        }, 1000)
+        
     }
 
     // create comment
@@ -91,7 +82,16 @@ document.addEventListener('DOMContentLoaded', () => {
     function main(){
 
         // start Counter
-        startCounter()
+        startCounter = setInterval( ()=> {
+            // increment counter  +1
+            counter++
+
+            // update the counter display
+            counterDisplay.innerText = counter
+
+            heartBeatChecker()
+
+        }, 1000)
 
         // begin heart like checker
         let heartBeat = setTimeout( heartBeatChecker, 500)
