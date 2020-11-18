@@ -143,6 +143,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 // set pause btn to heart
                 pauseBtn.innerText = ❤️
 
+                counter = 0
+
                 main()
 
 
