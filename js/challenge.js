@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if(pauseBtnState === 'running') {
 
                 // clear interval to cancel set interval,
-                clearInterval(startCounter)
+                clearInterval(counterInerval)
 
 
                 //  set to pause
