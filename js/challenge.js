@@ -118,10 +118,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 clearInterval(startCounter)
 
 
-                console.log('pause is clicked while running')
-
                 //  set to pause
                 pauseBtnState = "pause"
+
+                pauseBtn.innerText = "resume"
 
                 // disable incrementBtn
                 incrementBtn.style.display="none"
