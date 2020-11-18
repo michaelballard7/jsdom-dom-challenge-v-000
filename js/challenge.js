@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if(pauseBtnState === 'resume'){
-                console.log('fixed')
+                pauseBtnState = "running"
             // if state paused
                     // set to running
                     // resetCounter state to zero
