@@ -64,6 +64,22 @@ document.addEventListener('DOMContentLoaded', () => {
             likesState=0
     }
 
+    function startCounter(){
+
+        // start Counter
+        counterInerval = setInterval( ()=> {
+            // increment counter  +1
+            counter++
+
+            // update the counter display
+            counterDisplay.innerText = counter
+
+            heartBeatChecker()
+
+        }, 1000)
+        
+    }
+
     // create comment
     function createComment(){
         // select inputValue on form submit
@@ -78,17 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function main(){
 
-        // start Counter
-        let counterInerval = setInterval( ()=> {
-            // increment counter  +1
-            counter++
-
-            // update the counter display
-            counterDisplay.innerText = counter
-
-            heartBeatChecker()
-
-        }, 1000)
+        
 
         // begin heart like checker
         let heartBeat = setTimeout( heartBeatChecker, 500)
