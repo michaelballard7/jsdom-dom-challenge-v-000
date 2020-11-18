@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
         commentList.insertAdjacentElement('afterbegin', comment)
 
         commentContainer.appendChild(commentList)
-    
+
 
     }
 
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             e.preventDefault();
 
-            
+
 
         })
 
