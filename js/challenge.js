@@ -109,8 +109,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // pauseBtn,
         pauseBtn.addEventListener('click', () => {
 
-
-
             // if state running
             if(pauseBtnState === 'running') {
 
@@ -137,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return null
             }
 
-            if(pauseBtnState){
+            if(pauseBtnState === 'resume'){
                 console.log('fixed')
             // if state paused
                     // set to running
