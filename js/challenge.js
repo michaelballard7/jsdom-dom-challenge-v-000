@@ -136,7 +136,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if(pauseBtnState === 'resume'){
+                
                 pauseBtnState = "running"
+
                 pauseBtn.textContent = "❤️"
                 main()
             // if state paused
