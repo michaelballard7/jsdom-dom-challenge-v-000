@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // select the puase btn
     let pauseBtn  = document.querySelector('#pause')
 
-
     // select comment form
     let commentForm = document.querySelector('#comment-form');
 
@@ -95,8 +94,6 @@ document.addEventListener('DOMContentLoaded', () => {
             // append to container as adjancet html
 
     }
-
-
 
     function main(){
 
@@ -175,6 +172,12 @@ document.addEventListener('DOMContentLoaded', () => {
         })
 
         // add event for comment Add
+        commentForm.addEventListener('submit', (e) => {
+
+            e.preventDefault();
+
+            let value = commentInput.value
+        })
 
 
     } // end of main
