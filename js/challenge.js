@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 pauseBtnState = "running"
 
-                pauseBtn.innerHTML= ❤️
+                pauseBtn.innerText = ❤️
 
                 main()
 
