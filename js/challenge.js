@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if(pauseBtnState === 'running') {
 
                 // clear interval to cancel set interval,
-                clearInterval(heartBeat)
+                clearInterval(startCounter)
 
 
                 console.log('pause is clicked while running')
