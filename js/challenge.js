@@ -119,10 +119,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // if state running
             if(pauseBtnState === 'running') {
-                //  set to pause
-                pauseBtnState = "pause"
+
                 // clear interval to cancel set interval,
                 clearInterval(heartBeat)
+
+                //  set to pause
+                pauseBtnState = "pause"
 
                 // disable incrementBtn
                 incrementBtn.style.display="none"
