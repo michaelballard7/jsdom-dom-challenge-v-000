@@ -31,7 +31,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // select the puase btn
     let pauseBtn  = document.querySelector('#pause')
 
-    // select input form
+
+    // select comment form
+    
+    let commentForm = document.querySelector('#comment-form')
+    // select comment input
     let commentInput = document.querySelector('#comment-input');
 
     // select comment container
