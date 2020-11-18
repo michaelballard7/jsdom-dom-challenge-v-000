@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // create  comment ulContainer and append to comments
     let commentList = document.createElement('ul')
 
+    let counterInterval;
 
     // set Timeout to check the counter and heart and update the likes
     function heartBeatChecker(){
@@ -73,10 +74,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
+
+
     function main(){
 
         // start Counter
-        let startCounter = setInterval( ()=> {
+        let counterInerval = setInterval( ()=> {
             // increment counter  +1
             counter++
 
